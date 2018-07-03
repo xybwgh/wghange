@@ -8,3 +8,5 @@ git config --global user.email "邮箱名"
 6.git init：初始化仓库（告诉git在哪安家）
 7.git add 文件名：将文件添加到仓库
 8.git commit -m "...."（message——说明）:将文件提交给仓库
+9.git status:对比改之前与改之后的文件
+10.git diff 文件名：查看文件更改的地方

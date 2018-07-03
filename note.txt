@@ -1,6 +1,10 @@
+git config --global user.name "用户名"
+git config --global user.email "邮箱名"
 1.pwd:显示用户当前所处的路径
 2.ls：显示当前文件夹下的内容
 3.rm -rf（要删除的内容）：删除文件或文件夹
 4.cd （d:）:改变路径
 5.mkdir （要添加的内容）：新建文件夹
 6.git init：初始化仓库（告诉git在哪安家）
+7.git add 文件名：将文件添加到仓库
+8.git commit -m "...."（message——说明）:将文件提交给仓库

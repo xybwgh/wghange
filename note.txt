@@ -11,4 +11,4 @@ git config --global user.email "邮箱名"
 9.git status:对比改之前与改之后的文件
 10.git diff 文件名：查看文件更改的地方
 11.git log 或者git log --pretty=oneline:查看文件修改的目录
-12.git reset --hard (备注前的16进制里的前几个）:返回到我所选择的版本
+12.git reset --hard (备注前的16进制里的前几个（强制加6位））:返回到我所选择的版本

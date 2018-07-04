@@ -21,3 +21,4 @@ git config --global user.email "邮箱名"
 19.当维护多个不重名的文件时，git的这些所有命令都可以指定文件名：
      （1）git diff HEAD -- 文件名：只比较版本库中该文件和工作区该文件的区别，忽略别的文件的比较
 20.git checkout -- note.txt:还原仓库中的head（慎用）
+21.git reset HEAD -- note.txt：放弃暂存区的内容（通过git add添加的），同时把工作区的内容还原到HEAD状态

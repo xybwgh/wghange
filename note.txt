@@ -13,5 +13,5 @@ git config --global user.email "邮箱名"
 11.git log 或者git log --pretty=oneline:查看用户修改信息的目录
 12.git reset --hard (备注前的16进制里的前几个（强制加6位））:返回到我所选择的版本
 13.cat 文件名：显示文件内容
-14.git reset --hard HEAD^(^是几次的意思)：回退到^次操作的版本，无法返回到原来版本。
-15.git reflog：用来查找命令操作历史
+14.git reset --hard HEAD^(^是几次的意思，head指向那个版本号，当前版本就是head指向的)：回退到^次操作的版本，无法返回到原来版本。（相当于指针）
+15.git reflog：展示命令操作历史
